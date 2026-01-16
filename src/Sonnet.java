@@ -31,11 +31,7 @@ public class Sonnet {
                 System.out.println("You guessed Incorrectly, you now have "+(3-numIncorrectGuesses)+" incorrect guesses left." );
             }
         }
-        if (numCorrectGuesses == 3){
-            return true;
-        }else{
-            return false; // default case, also the case for when incorrect guesses is 3
-        }
+        return numCorrectGuesses == 3;
     }
 
     public void printSonnetString(int stoppedIndexInSonnet){

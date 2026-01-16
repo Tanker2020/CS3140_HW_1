@@ -3,7 +3,8 @@
 ## Methods
 
 ### main
-Runs the code first printing HelloWorld!
+Runs the code, creating an object of Sonnet, holding the block string of the sonnet
+and giving the user a final goodbye.
 
 ### splitStringToWords(static)
 This static method takes in a String and uses regex operation of \W+ with java split 
